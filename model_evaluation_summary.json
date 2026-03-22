@@ -1,0 +1,103 @@
+{
+  "cross_validated_c_index": {
+    "fold_scores": [
+      0.8560905867874039,
+      0.8553946229922184,
+      0.8700795109086282,
+      0.8622213107049163,
+      0.8595923909278579
+    ],
+    "mean": 0.860675684464205,
+    "std": 0.005935216258389596
+  },
+  "train_holdout": {
+    "train_rows": 5634,
+    "holdout_rows": 1409,
+    "train_event_rate": 0.2653532126375577,
+    "holdout_event_rate": 0.2654364797728886,
+    "train_c_index": 0.8643504886842034,
+    "holdout_c_index": 0.8501718440367225,
+    "holdout_calibration": {
+      "6": {
+        "weighted_absolute_calibration_error": 0.03100901015996707,
+        "bin_summary": [
+          {
+            "bin": 1,
+            "n": 282,
+            "mean_predicted_event_prob": 0.010348155924437436,
+            "observed_event_prob_km": 0.0,
+            "absolute_error": 0.010348155924437436
+          },
+          {
+            "bin": 2,
+            "n": 282,
+            "mean_predicted_event_prob": 0.02851282366911119,
+            "observed_event_prob_km": 0.0072202166064978535,
+            "absolute_error": 0.021292607062613336
+          },
+          {
+            "bin": 3,
+            "n": 281,
+            "mean_predicted_event_prob": 0.06688268005687296,
+            "observed_event_prob_km": 0.08290986773349907,
+            "absolute_error": 0.0160271876766261
+          },
+          {
+            "bin": 4,
+            "n": 282,
+            "mean_predicted_event_prob": 0.14823315686574623,
+            "observed_event_prob_km": 0.13452655496519317,
+            "absolute_error": 0.013706601900553061
+          },
+          {
+            "bin": 5,
+            "n": 282,
+            "mean_predicted_event_prob": 0.3295314751353579,
+            "observed_event_prob_km": 0.42314884634088057,
+            "absolute_error": 0.09361737120552266
+          }
+        ]
+      },
+      "12": {
+        "weighted_absolute_calibration_error": 0.020871772990428913,
+        "bin_summary": [
+          {
+            "bin": 1,
+            "n": 282,
+            "mean_predicted_event_prob": 0.016028334144132177,
+            "observed_event_prob_km": 0.0,
+            "absolute_error": 0.016028334144132177
+          },
+          {
+            "bin": 2,
+            "n": 282,
+            "mean_predicted_event_prob": 0.04393358970919912,
+            "observed_event_prob_km": 0.0072202166064978535,
+            "absolute_error": 0.036713373102701265
+          },
+          {
+            "bin": 3,
+            "n": 281,
+            "mean_predicted_event_prob": 0.10185009031669875,
+            "observed_event_prob_km": 0.11864313304384944,
+            "absolute_error": 0.01679304272715068
+          },
+          {
+            "bin": 4,
+            "n": 282,
+            "mean_predicted_event_prob": 0.2200338077585849,
+            "observed_event_prob_km": 0.2270369957116155,
+            "absolute_error": 0.007003187953030621
+          },
+          {
+            "bin": 5,
+            "n": 282,
+            "mean_predicted_event_prob": 0.45999699063604493,
+            "observed_event_prob_km": 0.48780345407868086,
+            "absolute_error": 0.02780646344263593
+          }
+        ]
+      }
+    }
+  }
+}
