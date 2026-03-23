@@ -338,14 +338,6 @@ with tab1:
     difference = monthly_charges - 65.0
     charge_hr = float(np.exp(mc_coef * difference)) if mc_coef != 0 else None
 
-    st.write("DEBUG monthly charges")
-    st.write({
-        "monthly_charges": monthly_charges,
-        "mc_coef": mc_coef,
-        "difference_vs_avg": difference,
-        "charge_hr": charge_hr,
-        "charge_effect": charge_effect,
-    })
 
     if charge_effect is not None:
         effect_type, score, text = charge_effect
